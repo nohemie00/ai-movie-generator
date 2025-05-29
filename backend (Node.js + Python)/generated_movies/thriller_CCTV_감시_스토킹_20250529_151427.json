@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "generated_at": "2025-05-29T15:14:27.662917",
+    "input": {
+      "genre": "thriller",
+      "keywords": "CCTV, 감시, 스토킹",
+      "dialogue": "당신을 계속 지켜보고 있었어요"
+    },
+    "total_duration": 300,
+    "scene_count": 5,
+    "task_id": "9dbdacef-a971-40a3-84e2-5a4e574fe50b"
+  },
+  "synopsis": "\"이름 없는 감시자\"\n\n시작: \n영화는 백화점의 CCTV 컨트롤 룸에서 시작합니다. 감시자(백화점 보안원)는 모니터를 집중적으로 관찰하며, 하나의 화면에 특히 집중하고 있습니다. 그 화면은 백화점의 화장품 섹션을 보여주고 있으며, 젊은 여성(피 감시자)이 흥미진진하게 물건을 고르고 있습니다. 감시자는 이 여성의 행동을 철저히 감시하며, 그녀의 모든 움직임을 주의 깊게 기록하고 있습니다.\n\n중간:\n여성은 백화점을 나서며 자신이 주차한 차량으로 걸어갑니다. 그녀가 차량에 다가갈수록, 감시자의 불안함이 커져갑니다. 이제 감시자는 여성의 보호를 위해 무언가를 해야 할 것 같은 강한 충동을 느낍니다. 이 때 감시자는 누군가 그녀를 스토킹하고 있다는 것을 깨닫습니다. 여성이 차를 타고 나가는 것을 본 감시자는 모니터에서 눈을 뗄 수 없게 됩니다.\n\n끝:\n감시자는 여성이 혼자 있는 거리에서 차를 세우는 것을 보고, 직접 개입하기로 결심합니다. 그는 단숨에 룸을 떠나 차를 몰고 그녀를 따라갑니다. 여성이 차에서 내려 바라보고 있는 것은 미스터리한 물체입니다. 감시자가 차에서 내려 \"당신을 계속 지켜보고 있었어요\"라고 말하며, 그녀에게 경고합니다. 그가 그녀에게 전하는 것은, 그녀가 스토킹 당하고 있음을 알리는 것입니다. 그녀는 놀라며 감사의 말을 건네고, 두 사람은 함께 백화점으로 돌아갑니다. CCTV를 통해 감시자는 스토커를 알아채고, 그를 제압함으로써 이야기는 마무리됩니다. \n\n이렇게 영화는 감시자의 고요한 불안감과 CCTV를 통한 끊임없는 감시, 그리고 최종적으로는 스토킹의 위험에서 여성을 구하는 결정적인 행동을 통해 긴장감을 유지합니다. 이 5분 동안, 관객은 감시자의 시각으로 이 세상을 경험하게 되고, 그의 고민과 행동에 공감하게 됩니다.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "scene_type": "opening",
+      "description": "백화점의 CCTV 컨트롤 룸에서 감시자가 화장품 섹션에서 쇼핑하는 젊은 여성을 지켜보는 장면",
+      "location": "CCTV control room",
+      "time": "day",
+      "emotion": "curiosity",
+      "dialogue": "",
+      "duration": 30,
+      "visual_style": "dark atmosphere, mysterious shadows, CCTV footage style",
+      "runway_prompt": "urban_night, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "High angle, making the watcher observing the CCTV monitors the main focus",
+      "lighting": "Low, mainly from the monitors",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 2,
+      "scene_type": "development",
+      "description": "여성이 백화점을 나서 차량으로 걸어가는 장면. 감시자의 불안감이 커지며 스토킹하는 사람을 발견하는 장면",
+      "location": "Parking garage",
+      "time": "dusk",
+      "emotion": "anxiety",
+      "dialogue": "",
+      "duration": 60,
+      "visual_style": "Fast-paced movement, handheld camera, dramatic lighting",
+      "runway_prompt": "alley, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "POV shot of the watcher seeing the woman in the CCTV footage",
+      "lighting": "Overhead, harsh lighting typical of parking garages",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 3,
+      "scene_type": "climax",
+      "description": "감시자가 여성이 혼자 있는 거리에서 차를 세우는 것을 보고, 직접 개입하기로 결심하는 장면",
+      "location": "Deserted street",
+      "time": "night",
+      "emotion": "determination",
+      "dialogue": "",
+      "duration": 75,
+      "visual_style": "High tension, dramatic angles, contrasting shadows",
+      "runway_prompt": "abandoned_factory, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "Wide shot showing the watcher's car chasing the woman's car",
+      "lighting": "Streetlights casting long shadows",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 4,
+      "scene_type": "revelation",
+      "description": "감시자가 차에서 내려 '당신을 계속 지켜보고 있었어요'라고 말하며, 그녀에게 경고하는 장면",
+      "location": "Deserted street",
+      "time": "night",
+      "emotion": "surprise",
+      "dialogue": "'당신을 계속 지켜보고 있었어요'",
+      "duration": 45,
+      "visual_style": "Close-up shots, dramatic lighting, intense expressions",
+      "runway_prompt": "interrogation_room, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "Mid shot showing both the watcher and the woman's reaction",
+      "lighting": "Streetlights casting dramatic shadows on their faces",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 5,
+      "scene_type": "resolution",
+      "description": "감시자가 CCTV를 통해 스토커를 알아채고, 그를 제압함으로써 이야기를 마무리하는 장면",
+      "location": "CCTV control room",
+      "time": "night",
+      "emotion": "relief",
+      "dialogue": "",
+      "duration": 90,
+      "visual_style": "Dark atmosphere, mysterious shadows, CCTV footage style",
+      "runway_prompt": "urban_night, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "Wide shot showing the watcher back in the control room, watching the stalker being apprehended on the CCTV monitors",
+      "lighting": "Low, mainly from the monitors",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    }
+  ],
+  "video_generation": {
+    "total_scenes": 5,
+    "successful_scenes": 5,
+    "failed_scenes": 0,
+    "success_rate": 100.0,
+    "results": [
+      {
+        "success": true,
+        "scene_id": 1,
+        "task_id": "mock_task_1",
+        "video_url": "https://mock-video-url.com/scene_1.mp4",
+        "prompt": "urban_night, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 30
+      },
+      {
+        "success": true,
+        "scene_id": 2,
+        "task_id": "mock_task_2",
+        "video_url": "https://mock-video-url.com/scene_2.mp4",
+        "prompt": "alley, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 60
+      },
+      {
+        "success": true,
+        "scene_id": 3,
+        "task_id": "mock_task_3",
+        "video_url": "https://mock-video-url.com/scene_3.mp4",
+        "prompt": "abandoned_factory, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 75
+      },
+      {
+        "success": true,
+        "scene_id": 4,
+        "task_id": "mock_task_4",
+        "video_url": "https://mock-video-url.com/scene_4.mp4",
+        "prompt": "interrogation_room, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 45
+      },
+      {
+        "success": true,
+        "scene_id": 5,
+        "task_id": "mock_task_5",
+        "video_url": "https://mock-video-url.com/scene_5.mp4",
+        "prompt": "urban_night, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 90
+      }
+    ],
+    "video_urls": [
+      "https://mock-video-url.com/scene_1.mp4",
+      "https://mock-video-url.com/scene_2.mp4",
+      "https://mock-video-url.com/scene_3.mp4",
+      "https://mock-video-url.com/scene_4.mp4",
+      "https://mock-video-url.com/scene_5.mp4"
+    ],
+    "failed_scene_ids": []
+  },
+  "success": true
+}

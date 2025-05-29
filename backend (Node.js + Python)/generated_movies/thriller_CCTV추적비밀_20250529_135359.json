@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "generated_at": "2025-05-29T13:53:59.392756",
+    "input": {
+      "genre": "thriller",
+      "keywords": "CCTV,추적,비밀",
+      "dialogue": "누군가 우리를 지켜보고 있어"
+    },
+    "total_duration": 300,
+    "scene_count": 5
+  },
+  "synopsis": "영화는 어두운 골목에서 시작하며, 초점은 비가 내리는 CCTV 카메라에 맞춰져 있습니다. 카메라는 의심스럽게 이동하는 남자의 모습을 포착합니다. 그는 뭔가를 복사하려는 듯이 또는 존재를 확인하는 듯이 여러 골목을 돌아다닙니다. 그의 얼굴은 항상 그림자에 가려져 있습니다.\n\n다음 장면에서, 김 미나는 컴퓨터 스크린 앞에 앉아, CCTV 피드를 주의 깊게 관찰하고 있습니다. 그녀의 얼굴에는 집중과 혼란이 교차하며, 어둠속에서 나타나는 그의 모습에 올인합니다. 그녀는 주위를 둘러보며, \"누군가 우리를 지켜보고 있어\" 라고 중얼거립니다.\n\n다음으로, 미나는 남자의 움직임을 분석하며, 그를 추적하는 흔적을 찾아냅니다. 그녀는 그의 경로를 따라가며, 그가 다니는 골목들을 지나갑니다. 매 장면마다 심장이 빠르게 뛰는 사운드 트랙이 배경으로 흐릅니다.\n\n마지막 장면에서는 미나와 남자가 따로따로 그들이 도달한 목적지에 도착하는 모습을 보여줍니다. 그곳은 세상에 알려지지 않은 작은 방입니다. 미나는 그 방안에 들어가며, 화면에는 '비밀'이라는 단어가 떠올라 끝맺음을 합니다. \n\n영화는 이어서 미나가 그 방에서 무엇을 발견하는지, 그녀가 비밀을 풀어나갈 수 있을지에 대한 질문으로 끝나며 시청자에게 긴장감을 더해줍니다. 5분 분량의 이 스릴러 영화는 CCTV 추적, 비밀의 발견이라는 키워드와 \"누군가 우리를 지켜보고 있어\"라는 대사를 효과적으로 사용하며 스토리를 전개합니다.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "scene_type": "opening",
+      "description": "어두운 골목에서 비가 내리는 CCTV 카메라를 통해 이동하는 의심스러운 남자의 모습을 포착",
+      "location": "urban_night",
+      "time": "night",
+      "emotion": "mystery",
+      "dialogue": "",
+      "duration": 30,
+      "visual_style": "dark atmosphere, mysterious shadows, CCTV footage style",
+      "runway_prompt": "A man moving suspiciously through the rain in a dark alley as seen through a CCTV camera, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "CCTV perspective",
+      "lighting": "low-key, mysterious",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 2,
+      "scene_type": "development",
+      "description": "김 미나가 컴퓨터 스크린 앞에 앉아, CCTV 피드를 주의 깊게 관찰",
+      "location": "office",
+      "time": "night",
+      "emotion": "concentration, confusion",
+      "dialogue": "누군가 우리를 지켜보고 있어",
+      "duration": 45,
+      "visual_style": "close-up shots, dramatic lighting, intense expressions",
+      "runway_prompt": "Kim Mina sitting in front of a computer screen, carefully observing the CCTV feed, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "over the shoulder",
+      "lighting": "soft, focused on the face",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 3,
+      "scene_type": "chase",
+      "description": "미나가 남자의 움직임을 분석하며, 그를 추적하는 흔적을 찾아냄",
+      "location": "alley",
+      "time": "night",
+      "emotion": "anxiety, determination",
+      "dialogue": "",
+      "duration": 60,
+      "visual_style": "fast-paced movement, handheld camera, dramatic lighting",
+      "runway_prompt": "Mina analyzing the man's movements and finding traces of his pursuit, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "point of view",
+      "lighting": "low-key, dramatic",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 4,
+      "scene_type": "climax",
+      "description": "미나와 남자가 따로따로 그들이 도달한 목적지에 도착, 그곳은 세상에 알려지지 않은 작은 방",
+      "location": "basement",
+      "time": "night",
+      "emotion": "surprise, tension",
+      "dialogue": "",
+      "duration": 75,
+      "visual_style": "high tension, dramatic angles, contrasting shadows",
+      "runway_prompt": "Mina and the man separately arrive at their destination, a small room unknown to the world, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "wide, showing both characters",
+      "lighting": "dim, suspenseful",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 5,
+      "scene_type": "resolution",
+      "description": "미나가 그 방에서 무엇을 발견하는지, 그녀가 비밀을 풀어나갈 수 있을지에 대한 질문으로 영화 끝",
+      "location": "basement",
+      "time": "night",
+      "emotion": "anticipation, suspense",
+      "dialogue": "",
+      "duration": 90,
+      "visual_style": "close-up shots, dramatic lighting, intense expressions",
+      "runway_prompt": "Mina in the room, the question of what she will discover and whether she can unravel the secret, low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "close-up on Mina's face",
+      "lighting": "low-key, dramatic",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    }
+  ],
+  "video_generation": {
+    "total_scenes": 5,
+    "successful_scenes": 5,
+    "failed_scenes": 0,
+    "success_rate": 100.0,
+    "results": [
+      {
+        "success": true,
+        "scene_id": 1,
+        "task_id": "mock_task_1",
+        "video_url": "https://mock-video-url.com/scene_1.mp4",
+        "prompt": "A man moving suspiciously through the rain in a dark alley as seen through a CCTV camera, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 30
+      },
+      {
+        "success": true,
+        "scene_id": 2,
+        "task_id": "mock_task_2",
+        "video_url": "https://mock-video-url.com/scene_2.mp4",
+        "prompt": "Kim Mina sitting in front of a computer screen, carefully observing the CCTV feed, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 45
+      },
+      {
+        "success": true,
+        "scene_id": 3,
+        "task_id": "mock_task_3",
+        "video_url": "https://mock-video-url.com/scene_3.mp4",
+        "prompt": "Mina analyzing the man's movements and finding traces of his pursuit, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 60
+      },
+      {
+        "success": true,
+        "scene_id": 4,
+        "task_id": "mock_task_4",
+        "video_url": "https://mock-video-url.com/scene_4.mp4",
+        "prompt": "Mina and the man separately arrive at their destination, a small room unknown to the world, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 75
+      },
+      {
+        "success": true,
+        "scene_id": 5,
+        "task_id": "mock_task_5",
+        "video_url": "https://mock-video-url.com/scene_5.mp4",
+        "prompt": "Mina in the room, the question of what she will discover and whether she can unravel the secret, low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 90
+      }
+    ],
+    "video_urls": [
+      "https://mock-video-url.com/scene_1.mp4",
+      "https://mock-video-url.com/scene_2.mp4",
+      "https://mock-video-url.com/scene_3.mp4",
+      "https://mock-video-url.com/scene_4.mp4",
+      "https://mock-video-url.com/scene_5.mp4"
+    ],
+    "failed_scene_ids": []
+  },
+  "genre_template": {
+    "name": "스릴러",
+    "description": "긴장감과 서스펜스가 가득한 장르",
+    "visual_style": {
+      "color_palette": [
+        "dark",
+        "cold",
+        "desaturated"
+      ],
+      "lighting": "low-key",
+      "camera_movement": [
+        "handheld",
+        "tracking",
+        "close-up"
+      ],
+      "pace": "fast"
+    },
+    "audio_style": {
+      "music_type": "suspenseful",
+      "sound_effects": [
+        "footsteps",
+        "heartbeat",
+        "ambient_noise"
+      ],
+      "volume": "dynamic"
+    },
+    "scene_templates": [
+      {
+        "type": "opening",
+        "duration": 30,
+        "description": "긴장감 조성을 위한 오프닝",
+        "visual_prompts": "dark atmosphere, mysterious shadows, CCTV footage style",
+        "typical_locations": [
+          "urban_night",
+          "abandoned_building",
+          "parking_garage"
+        ]
+      },
+      {
+        "type": "chase",
+        "duration": 60,
+        "description": "추격 장면",
+        "visual_prompts": "fast-paced movement, handheld camera, dramatic lighting",
+        "typical_locations": [
+          "alley",
+          "stairwell",
+          "rooftop"
+        ]
+      },
+      {
+        "type": "revelation",
+        "duration": 45,
+        "description": "진실 폭로 장면",
+        "visual_prompts": "close-up shots, dramatic lighting, intense expressions",
+        "typical_locations": [
+          "interrogation_room",
+          "office",
+          "basement"
+        ]
+      },
+      {
+        "type": "climax",
+        "duration": 75,
+        "description": "클라이맥스",
+        "visual_prompts": "high tension, dramatic angles, contrasting shadows",
+        "typical_locations": [
+          "warehouse",
+          "abandoned_factory",
+          "underground"
+        ]
+      }
+    ]
+  },
+  "success": true
+}

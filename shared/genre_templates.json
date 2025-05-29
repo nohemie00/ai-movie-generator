@@ -1,0 +1,190 @@
+{
+  "templates": {
+    "thriller": {
+      "name": "스릴러",
+      "description": "긴장감과 서스펜스가 가득한 장르",
+      "visual_style": {
+        "color_palette": ["dark", "cold", "desaturated"],
+        "lighting": "low-key",
+        "camera_movement": ["handheld", "tracking", "close-up"],
+        "pace": "fast"
+      },
+      "audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": ["footsteps", "heartbeat", "ambient_noise"],
+        "volume": "dynamic"
+      },
+      "scene_templates": [
+        {
+          "type": "opening",
+          "duration": 30,
+          "description": "긴장감 조성을 위한 오프닝",
+          "visual_prompts": "dark atmosphere, mysterious shadows, CCTV footage style",
+          "typical_locations": ["urban_night", "abandoned_building", "parking_garage"]
+        },
+        {
+          "type": "chase",
+          "duration": 60,
+          "description": "추격 장면",
+          "visual_prompts": "fast-paced movement, handheld camera, dramatic lighting",
+          "typical_locations": ["alley", "stairwell", "rooftop"]
+        },
+        {
+          "type": "revelation",
+          "duration": 45,
+          "description": "진실 폭로 장면",
+          "visual_prompts": "close-up shots, dramatic lighting, intense expressions",
+          "typical_locations": ["interrogation_room", "office", "basement"]
+        },
+        {
+          "type": "climax",
+          "duration": 75,
+          "description": "클라이맥스",
+          "visual_prompts": "high tension, dramatic angles, contrasting shadows",
+          "typical_locations": ["warehouse", "abandoned_factory", "underground"]
+        }
+      ]
+    },
+    "romance": {
+      "name": "로맨스",
+      "description": "사랑과 감정이 중심인 장르",
+      "visual_style": {
+        "color_palette": ["warm", "soft", "pastel"],
+        "lighting": "soft",
+        "camera_movement": ["smooth", "dolly", "medium_shot"],
+        "pace": "moderate"
+      },
+      "audio_style": {
+        "music_type": "romantic",
+        "sound_effects": ["nature", "cafe_ambience", "rain"],
+        "volume": "gentle"
+      },
+      "scene_templates": [
+        {
+          "type": "meet_cute",
+          "duration": 45,
+          "description": "첫 만남 장면",
+          "visual_prompts": "soft lighting, warm colors, natural expressions",
+          "typical_locations": ["cafe", "park", "bookstore", "train_station"]
+        },
+        {
+          "type": "development",
+          "duration": 90,
+          "description": "관계 발전",
+          "visual_prompts": "intimate conversations, beautiful scenery, golden hour",
+          "typical_locations": ["restaurant", "beach", "garden", "home"]
+        },
+        {
+          "type": "conflict",
+          "duration": 60,
+          "description": "갈등 상황",
+          "visual_prompts": "emotional tension, rain, separation",
+          "typical_locations": ["apartment", "street", "airport"]
+        },
+        {
+          "type": "resolution",
+          "duration": 45,
+          "description": "해결과 결말",
+          "visual_prompts": "reunion, happiness, bright lighting",
+          "typical_locations": ["same_as_meet_cute", "wedding_venue", "home"]
+        }
+      ]
+    },
+    "horror": {
+      "name": "공포",
+      "description": "공포와 두려움을 자극하는 장르",
+      "visual_style": {
+        "color_palette": ["black", "red", "dark_blue"],
+        "lighting": "dramatic",
+        "camera_movement": ["shaky", "sudden_zoom", "low_angle"],
+        "pace": "variable"
+      },
+      "audio_style": {
+        "music_type": "horror",
+        "sound_effects": ["creaking", "whispers", "sudden_silence"],
+        "volume": "shocking"
+      },
+      "scene_templates": [
+        {
+          "type": "setup",
+          "duration": 40,
+          "description": "평범한 일상에서 시작",
+          "visual_prompts": "normal lighting gradually becoming ominous",
+          "typical_locations": ["home", "school", "office"]
+        },
+        {
+          "type": "first_scare",
+          "duration": 30,
+          "description": "첫 번째 공포 요소",
+          "visual_prompts": "sudden darkness, unexpected movement, shadows",
+          "typical_locations": ["basement", "attic", "bathroom"]
+        },
+        {
+          "type": "escalation",
+          "duration": 90,
+          "description": "공포 상황 악화",
+          "visual_prompts": "increasing darkness, supernatural elements, isolation",
+          "typical_locations": ["abandoned_house", "forest", "hospital"]
+        },
+        {
+          "type": "final_terror",
+          "duration": 60,
+          "description": "최종 공포 장면",
+          "visual_prompts": "maximum terror, dramatic reveal, survival struggle",
+          "typical_locations": ["trapped_space", "underground", "ritual_site"]
+        }
+      ]
+    },
+    "comedy": {
+      "name": "코미디",
+      "description": "유머와 웃음이 중심인 장르",
+      "visual_style": {
+        "color_palette": ["bright", "vibrant", "saturated"],
+        "lighting": "bright",
+        "camera_movement": ["stable", "wide_shot", "reaction_shots"],
+        "pace": "upbeat"
+      },
+      "audio_style": {
+        "music_type": "upbeat",
+        "sound_effects": ["cartoon_sounds", "laugh_track", "quirky_noises"],
+        "volume": "cheerful"
+      },
+      "scene_templates": [
+        {
+          "type": "setup",
+          "duration": 45,
+          "description": "상황 설정과 캐릭터 소개",
+          "visual_prompts": "bright lighting, exaggerated expressions, colorful environment",
+          "typical_locations": ["office", "home", "restaurant", "park"]
+        },
+        {
+          "type": "complication",
+          "duration": 75,
+          "description": "웃긴 상황 발생",
+          "visual_prompts": "physical comedy, timing-based humor, reaction shots",
+          "typical_locations": ["kitchen", "elevator", "store", "street"]
+        },
+        {
+          "type": "escalation",
+          "duration": 60,
+          "description": "상황 악화로 더 큰 웃음",
+          "visual_prompts": "chaos, multiple characters, slapstick elements",
+          "typical_locations": ["party", "workplace", "public_space"]
+        },
+        {
+          "type": "resolution",
+          "duration": 40,
+          "description": "해피엔딩으로 마무리",
+          "visual_prompts": "group laughter, satisfied expressions, warm lighting",
+          "typical_locations": ["same_as_setup", "celebration_venue"]
+        }
+      ]
+    }
+  },
+  "global_settings": {
+    "total_duration": 300,
+    "target_resolution": "1920x1080",
+    "frame_rate": 24,
+    "aspect_ratio": "16:9"
+  }
+} 

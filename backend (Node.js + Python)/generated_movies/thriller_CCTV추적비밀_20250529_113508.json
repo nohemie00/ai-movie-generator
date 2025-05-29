@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "generated_at": "2025-05-29T11:35:08.284699",
+    "input": {
+      "genre": "thriller",
+      "keywords": "CCTV,추적,비밀",
+      "dialogue": "누군가 우리를 지켜보고 있어"
+    },
+    "total_duration": 300,
+    "scene_count": 5
+  },
+  "synopsis": "시작: \n카메라는 어두운 밤거리를 휘감듯이 따라가며, 비가 내리는 거리에서 혼자 걷는 한 남자를 쫓는다. 그의 모습은 불안해 보이며, 주위를 두리번거린다. 그는 가로등 아래 CCTV를 발견하고 멈춘다. 카메라는 그의 눈동자에 반영된 CCTV를 확대하여 보여준다.\n\n중간:\n남자는 서둘러 휴대폰을 꺼내 \"누군가 우리를 지켜보고 있어\" 라고 누군가에게 메시지를 보낸다. 메시지를 보낸 후, 남자는 골목길로 빠져들어갔다. 그러나 그의 뒤를 따라오는 실루엣은 그를 계속 추적한다. 그는 숨을 쉬며, 비밀스러운 코드를 휴대폰에 타이핑하고, 그 순간 모든 가로등과 CCTV가 꺼진다. 주변이 어둠에 휩싸인다. \n\n끝:\n남자는 빠르게 거리를 달리기 시작한다. 그의 뒤를 쫓던 실루엣도 그를 따라오기 시작한다. 하지만 어둠 속에서 남자는 사라지고, 실루엣만이 혼자 남는다. 그 시점에서, 카메라는 올라가며 위에서 내려다보는 뷰로 전환된다. 실루엣이 혼자서 남자를 찾고 있는 모습과 함께, 온 거리에는 남자가 비밀스럽게 조작한 것으로 보이는 모든 CCTV가 다시 켜진다. 그 모든 화면은 실루엣을 촬영하고 있었다. 함정에 빠진 추적자의 모습이 각 CCTV에 잡히면서 영화는 끝난다.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "scene_type": "opening",
+      "description": "어두운 밤거리를 휘감듯이 따라가며, 비가 내리는 거리에서 혼자 걷는 남자를 쫓는다. 그의 모습은 불안해 보이며, 주위를 두리번거린다. 그는 가로등 아래 CCTV를 발견하고 멈춘다. 카메라는 그의 눈동자에 반영된 CCTV를 확대하여 보여준다.",
+      "location": "urban_night",
+      "time": "night",
+      "emotion": "anxiety",
+      "dialogue": "",
+      "duration": 30,
+      "visual_style": "dark atmosphere, mysterious shadows, CCTV footage style",
+      "runway_prompt": "A man walking alone on a rainy street at night, looking anxious and checking his surroundings. He stops under a streetlight and looks at a CCTV camera., low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "Follow and close-up shots",
+      "lighting": "Low and dramatic lighting",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 2,
+      "scene_type": "development",
+      "description": "남자는 서둘러 휴대폰을 꺼내 '누군가 우리를 지켜보고 있어'라고 누군가에게 메시지를 보낸다. 메시지를 보낸 후, 남자는 골목길로 빠져들어갔다.",
+      "location": "alley",
+      "time": "night",
+      "emotion": "tension",
+      "dialogue": "'누군가 우리를 지켜보고 있어'",
+      "duration": 60,
+      "visual_style": "fast-paced movement, handheld camera, dramatic lighting",
+      "runway_prompt": "A man hurriedly takes out his phone and sends a message 'someone is watching us'. After sending the message, the man slips into an alleyway., low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "Handheld and follow shots",
+      "lighting": "Low and dramatic lighting",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 3,
+      "scene_type": "revelation",
+      "description": "그러나 그의 뒤를 따라오는 실루엣은 그를 계속 추적한다. 그는 숨을 쉬며, 비밀스러운 코드를 휴대폰에 타이핑하고, 그 순간 모든 가로등과 CCTV가 꺼진다. 주변이 어둠에 휩싸인다.",
+      "location": "urban_night",
+      "time": "night",
+      "emotion": "surprise",
+      "dialogue": "",
+      "duration": 45,
+      "visual_style": "close-up shots, dramatic lighting, intense expressions",
+      "runway_prompt": "The silhouette following him continues to track him. He types a mysterious code into his phone, and all the streetlights and CCTVs turn off, engulfing the surroundings in darkness., low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "Close-up and follow shots",
+      "lighting": "Sudden transition from low lighting to complete darkness",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 4,
+      "scene_type": "climax",
+      "description": "남자는 빠르게 거리를 달리기 시작한다. 그의 뒤를 쫓던 실루엣도 그를 따라오기 시작한다. 하지만 어둠 속에서 남자는 사라지고, 실루엣만이 혼자 남는다.",
+      "location": "alley",
+      "time": "night",
+      "emotion": "panic",
+      "dialogue": "",
+      "duration": 75,
+      "visual_style": "high tension, dramatic angles, contrasting shadows",
+      "runway_prompt": "The man starts running fast. The silhouette that was following him also starts to follow him. But in the darkness, the man disappears, leaving only the silhouette., low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "Fast-paced and dynamic angles",
+      "lighting": "Low and contrasting lighting",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    },
+    {
+      "scene_id": 5,
+      "scene_type": "resolution",
+      "description": "그 시점에서, 카메라는 올라가며 위에서 내려다보는 뷰로 전환된다. 실루엣이 혼자서 남자를 찾고 있는 모습과 함께, 온 거리에는 남자가 비밀스럽게 조작한 것으로 보이는 모든 CCTV가 다시 켜진다. 그 모든 화면은 실루엣을 촬영하고 있었다. 함정에 빠진 추적자의 모습이 각 CCTV에 잡히면서 영화는 끝난다.",
+      "location": "urban_night",
+      "time": "night",
+      "emotion": "relief",
+      "dialogue": "",
+      "duration": 90,
+      "visual_style": "high angle and CCTV footage style",
+      "runway_prompt": "The camera rises to a top-down view. The silhouette is seen alone searching for the man. All the CCTVs on the street, seemingly manipulated by the man, turn back on. All screens were filming the silhouette. The movie ends as the trapped pursuer is caught on each CCTV., low-key lighting, dark, cold, desaturated color palette, fast paced",
+      "camera_angle": "High angle and CCTV footage style",
+      "lighting": "Low and dramatic lighting",
+      "genre_visual_style": {
+        "color_palette": [
+          "dark",
+          "cold",
+          "desaturated"
+        ],
+        "lighting": "low-key",
+        "camera_movement": [
+          "handheld",
+          "tracking",
+          "close-up"
+        ],
+        "pace": "fast"
+      },
+      "genre_audio_style": {
+        "music_type": "suspenseful",
+        "sound_effects": [
+          "footsteps",
+          "heartbeat",
+          "ambient_noise"
+        ],
+        "volume": "dynamic"
+      }
+    }
+  ],
+  "video_generation": {
+    "total_scenes": 5,
+    "successful_scenes": 5,
+    "failed_scenes": 0,
+    "success_rate": 100.0,
+    "results": [
+      {
+        "success": true,
+        "scene_id": 1,
+        "task_id": "mock_task_1",
+        "video_url": "https://mock-video-url.com/scene_1.mp4",
+        "prompt": "A man walking alone on a rainy street at night, looking anxious and checking his surroundings. He stops under a streetlight and looks at a CCTV camera., low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 30
+      },
+      {
+        "success": true,
+        "scene_id": 2,
+        "task_id": "mock_task_2",
+        "video_url": "https://mock-video-url.com/scene_2.mp4",
+        "prompt": "A man hurriedly takes out his phone and sends a message 'someone is watching us'. After sending the message, the man slips into an alleyway., low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 60
+      },
+      {
+        "success": true,
+        "scene_id": 3,
+        "task_id": "mock_task_3",
+        "video_url": "https://mock-video-url.com/scene_3.mp4",
+        "prompt": "The silhouette following him continues to track him. He types a mysterious code into his phone, and all the streetlights and CCTVs turn off, engulfing the surroundings in darkness., low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 45
+      },
+      {
+        "success": true,
+        "scene_id": 4,
+        "task_id": "mock_task_4",
+        "video_url": "https://mock-video-url.com/scene_4.mp4",
+        "prompt": "The man starts running fast. The silhouette that was following him also starts to follow him. But in the darkness, the man disappears, leaving only the silhouette., low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 75
+      },
+      {
+        "success": true,
+        "scene_id": 5,
+        "task_id": "mock_task_5",
+        "video_url": "https://mock-video-url.com/scene_5.mp4",
+        "prompt": "The camera rises to a top-down view. The silhouette is seen alone searching for the man. All the CCTVs on the street, seemingly manipulated by the man, turn back on. All screens were filming the silhouette. The movie ends as the trapped pursuer is caught on each CCTV., low-key lighting, dark, cold, desaturated color palette, fast paced",
+        "duration": 90
+      }
+    ],
+    "video_urls": [
+      "https://mock-video-url.com/scene_1.mp4",
+      "https://mock-video-url.com/scene_2.mp4",
+      "https://mock-video-url.com/scene_3.mp4",
+      "https://mock-video-url.com/scene_4.mp4",
+      "https://mock-video-url.com/scene_5.mp4"
+    ],
+    "failed_scene_ids": []
+  },
+  "genre_template": {
+    "name": "스릴러",
+    "description": "긴장감과 서스펜스가 가득한 장르",
+    "visual_style": {
+      "color_palette": [
+        "dark",
+        "cold",
+        "desaturated"
+      ],
+      "lighting": "low-key",
+      "camera_movement": [
+        "handheld",
+        "tracking",
+        "close-up"
+      ],
+      "pace": "fast"
+    },
+    "audio_style": {
+      "music_type": "suspenseful",
+      "sound_effects": [
+        "footsteps",
+        "heartbeat",
+        "ambient_noise"
+      ],
+      "volume": "dynamic"
+    },
+    "scene_templates": [
+      {
+        "type": "opening",
+        "duration": 30,
+        "description": "긴장감 조성을 위한 오프닝",
+        "visual_prompts": "dark atmosphere, mysterious shadows, CCTV footage style",
+        "typical_locations": [
+          "urban_night",
+          "abandoned_building",
+          "parking_garage"
+        ]
+      },
+      {
+        "type": "chase",
+        "duration": 60,
+        "description": "추격 장면",
+        "visual_prompts": "fast-paced movement, handheld camera, dramatic lighting",
+        "typical_locations": [
+          "alley",
+          "stairwell",
+          "rooftop"
+        ]
+      },
+      {
+        "type": "revelation",
+        "duration": 45,
+        "description": "진실 폭로 장면",
+        "visual_prompts": "close-up shots, dramatic lighting, intense expressions",
+        "typical_locations": [
+          "interrogation_room",
+          "office",
+          "basement"
+        ]
+      },
+      {
+        "type": "climax",
+        "duration": 75,
+        "description": "클라이맥스",
+        "visual_prompts": "high tension, dramatic angles, contrasting shadows",
+        "typical_locations": [
+          "warehouse",
+          "abandoned_factory",
+          "underground"
+        ]
+      }
+    ]
+  },
+  "success": true
+}

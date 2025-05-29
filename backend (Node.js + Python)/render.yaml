@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: ai-movie-generator-backend
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python api_server.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: PORT
+        value: "8000"
+      - key: OPENAI_API_KEY
+        sync: false  # 수동으로 Render 대시보드에서 설정
+      - key: RUNWAY_API_KEY  
+        sync: false  # 수동으로 Render 대시보드에서 설정
+    autoDeploy: true
+    region: oregon 
