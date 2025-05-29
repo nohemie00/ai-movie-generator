@@ -11,8 +11,8 @@ services:
       - key: PORT
         value: "8000"
       - key: OPENAI_API_KEY
-        sync: false  # 수동으로 Render 대시보드에서 설정
+        sync: false
       - key: RUNWAY_API_KEY  
-        sync: false  # 수동으로 Render 대시보드에서 설정
+        sync: false
     autoDeploy: true
     region: oregon 

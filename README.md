@@ -28,6 +28,13 @@
 
 ```
 AI Movie/
+├── 📄 api_server.py              # FastAPI 백엔드 서버
+├── 📄 enhanced_gpt_parser.py     # GPT-4 시나리오 생성
+├── 📄 runway_integration.py     # Runway ML 영상 생성
+├── 📄 main_app.py               # CLI 앱
+├── 📄 requirements.txt          # Python 의존성
+├── 📄 render.yaml              # Render 배포 설정
+├── 📄 env.example              # 환경변수 템플릿
 ├── 📂 frontend (React, Vite or Next.js)/
 │   ├── 📄 package.json
 │   ├── 📄 vite.config.ts
@@ -41,13 +48,6 @@ AI Movie/
 │           ├── 📄 MovieGeneratorForm.tsx
 │           ├── 📄 ProgressTracker.tsx
 │           └── 📄 ResultsDisplay.tsx
-├── 📂 backend (Node.js + Python)/
-│   ├── 📄 requirements.txt
-│   ├── 📄 api_server.py
-│   ├── 📄 enhanced_gpt_parser.py
-│   ├── 📄 runway_integration.py
-│   ├── 📄 main_app.py
-│   └── 📄 .env
 ├── 📂 shared/
 │   └── 📄 genre_templates.json
 └── 📄 README.md
@@ -62,18 +62,17 @@ AI Movie/
 git clone <repository-url>
 cd "AI Movie"
 
-# Python 의존성 설치
-cd "backend (Node.js + Python)"
+# Python 의존성 설치 (루트 디렉토리에서)
 pip install -r requirements.txt
 
 # Node.js 의존성 설치
-cd "../frontend (React, Vite or Next.js)"
+cd "frontend (React, Vite or Next.js)"
 npm install
 ```
 
 ### 2️⃣ 환경 변수 설정
 
-`backend (Node.js + Python)/.env` 파일에 API 키를 설정하세요:
+루트 디렉토리에 `.env` 파일을 생성하고 API 키를 설정하세요:
 
 ```env
 # OpenAI API 키 (필수)
@@ -87,7 +86,7 @@ RUNWAY_API_KEY=your_runway_api_key_here
 
 **백엔드 서버 시작:**
 ```bash
-cd "backend (Node.js + Python)"
+# 루트 디렉토리에서
 python api_server.py
 ```
 - 🌐 API 서버: http://localhost:8000
@@ -113,7 +112,7 @@ npm run dev
 ### 명령행 인터페이스 사용
 
 ```bash
-cd "backend (Node.js + Python)"
+# 루트 디렉토리에서
 python main_app.py thriller "CCTV,추적,비밀" "누군가 우리를 지켜보고 있어"
 ```
 
