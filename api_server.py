@@ -15,9 +15,17 @@ from typing import Dict, Any, Optional
 import json
 from datetime import datetime
 from dotenv import load_dotenv
+import logging
 
 # 환경변수 로드
 load_dotenv()
+
+# 로깅 설정
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 # 로컬 모듈
 from enhanced_gpt_parser import MovieSceneGenerator
@@ -33,7 +41,15 @@ app = FastAPI(
 # CORS 설정
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:3000", 
+        "http://127.0.0.1:3000", 
+        "http://localhost:5173",
+        "https://*.onrender.com",
+        "https://*.vercel.app",
+        "https://*.netlify.app",
+        "*"  # 개발용 - 프로덕션에서는 제거
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -57,19 +73,21 @@ env_status = check_environment()
 scene_generator = None
 video_generator = None
 
+logger.info(f"🔧 환경 상태: {env_status}")
+
 try:
     scene_generator = MovieSceneGenerator()
-    print("✅ GPT Parser 초기화 완료")
+    logger.info("✅ GPT Parser 초기화 완료")
 except Exception as e:
-    print(f"⚠️ GPT Parser 초기화 실패: {e}")
+    logger.error(f"⚠️ GPT Parser 초기화 실패: {e}")
 
 try:
     # Mock 모드로 시작 (API 키가 없는 경우)
     use_mock = not (env_status["openai_configured"] and env_status["runway_configured"])
     video_generator = create_video_generator(use_mock=use_mock)
-    print(f"✅ Video Generator 초기화 완료 ({'Mock' if use_mock else 'Real'} 모드)")
+    logger.info(f"✅ Video Generator 초기화 완료 ({'Mock' if use_mock else 'Real'} 모드)")
 except Exception as e:
-    print(f"⚠️ Video Generator 초기화 실패: {e}")
+    logger.error(f"⚠️ Video Generator 초기화 실패: {e}")
 
 generation_tasks: Dict[str, Dict[str, Any]] = {}
 
@@ -348,9 +366,9 @@ if __name__ == "__main__":
     # Render 환경에서 PORT 환경변수 사용
     port = int(os.getenv("PORT", 8000))
     
-    print("🎬 AI 단편영화 생성기 API 서버 시작")
-    print(f"📍 포트: {port}")
-    print("📚 API 문서: /docs")
+    logger.info("🎬 AI 단편영화 생성기 API 서버 시작")
+    logger.info(f"📍 포트: {port}")
+    logger.info("📚 API 문서: /docs")
     
     uvicorn.run(
         "api_server:app",

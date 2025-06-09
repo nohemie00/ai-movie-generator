@@ -3,13 +3,13 @@ services:
     name: ai-movie-generator-backend
     runtime: python
     plan: free
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
     startCommand: "python api_server.py"
     envVars:
       - key: PYTHON_VERSION
-        value: "3.11.0"
+        value: "3.11"
       - key: PORT
-        value: "8000"
+        value: "10000"
       - key: OPENAI_API_KEY
         sync: false
       - key: RUNWAY_API_KEY  
